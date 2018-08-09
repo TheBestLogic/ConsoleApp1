@@ -33,6 +33,7 @@ namespace ConsoleApp1
     {
         public int Id { get; set; }
         //public List<string> Standarts { get; set; }
+        //????????????????????????????????
     }
 
     class Display
@@ -60,6 +61,8 @@ namespace ConsoleApp1
     class SIM_Carts
     {
         public int Id { get; set; }
+        public int NumberOfCarts { get; set; }
+        public string Size { get; set; }
 
         SIM_Carts()
         {
