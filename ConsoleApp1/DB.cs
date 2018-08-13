@@ -28,7 +28,13 @@ namespace ConsoleApp1
         public ICollection<string> Charact { get; set; }
     }
 
-    
+    public class Reiews : Other
+    {
+        public string UserName { get; set; }
+        public double Rating { get; set; }
+        public string Text { get; set; }
+        public string FeedbackEmail { get; set; }
+    }
 
-  
+
 }
