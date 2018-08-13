@@ -25,7 +25,7 @@ namespace ConsoleApp1
     public class Characteristic : Other
     {
         public string CharName { get; set; }
-        public ICollection<Characteristic> Characteristics { get; set; }
+        public ICollection<string> Charact { get; set; }
     }
 
     
