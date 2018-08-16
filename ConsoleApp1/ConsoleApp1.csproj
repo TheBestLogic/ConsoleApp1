@@ -140,7 +140,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DB.cs" />
+    <Compile Include="DataClasses\SomeProduct.cs" />
+    <Compile Include="DataClasses\Characteristic.cs" />
+    <Compile Include="DataClasses\Reiews.cs" />
+    <Compile Include="DataClasses\Item.cs" />
+    <Compile Include="DataClasses\Other.cs" />
     <Compile Include="DbClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -9,7 +9,7 @@ namespace ConsoleApp1
 {
     class DbClass : DbContext
     {
-        public DbSet<Smartphone> Smartphons { get; set; }
+        public DbSet<SomeProduct> Products { get; set; }
 
         public DbClass()
         {
