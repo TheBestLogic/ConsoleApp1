@@ -8,9 +8,9 @@ namespace ConsoleApp1
 {
     public class SomeProduct : Item
     {
-        public ICollection<Characteristic> Characteristics { get; set; }
+        public ICollection<Characteristic> Characteristics { get; } = new List<Characteristic>();
 
-        //public SomeProduct() => Characteristics. = new ICollection<Characteristic>();
+        public SomeProduct() => Characteristics = new List<Characteristic>();
 
         public SomeProduct(int id, string name, string company, Characteristic characteristics) : base(id, name, company)
         {
@@ -22,9 +22,9 @@ namespace ConsoleApp1
             Characteristics = characteristics;
         }
 
-        public SomeProduct(int id, string name, string company, ICollection<Characteristic> characteristics) : base(id, name, company)
+        /*public SomeProduct(int id, string name, string company, ICollection<Characteristic> characteristics) : base(id, name, company)
         {
             Characteristics = characteristics;
-        }
+        }*/
     }
 }

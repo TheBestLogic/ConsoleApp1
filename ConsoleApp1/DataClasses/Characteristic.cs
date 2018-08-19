@@ -11,13 +11,9 @@ namespace ConsoleApp1
         public string CharName { get; set; }
         public string CharText { get; set; }
 
-        protected Characteristic()
+        public Characteristic(int id, string charName, string charText)
         {
-
-        }
-
-        public Characteristic(int id, string charName, string charText) : base(id)
-        {
+            Id = id;
             CharName = charName;
             CharText = charText;
         }
