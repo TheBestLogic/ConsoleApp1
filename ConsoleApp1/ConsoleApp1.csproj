@@ -157,9 +157,9 @@
     <Compile Include="DataClasses\Item.cs" />
     <Compile Include="DataClasses\BaseClass.cs" />
     <Compile Include="DbClass.cs" />
-    <Compile Include="Migrations\20180823155417_MigrateDB.cs" />
-    <Compile Include="Migrations\20180823155417_MigrateDB.designer.cs">
-      <DependentUpon>20180823155417_MigrateDB.cs</DependentUpon>
+    <Compile Include="Migrations\20180823182018_MigrateDB.cs" />
+    <Compile Include="Migrations\20180823182018_MigrateDB.designer.cs">
+      <DependentUpon>20180823182018_MigrateDB.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\DbClassModelSnapshot.cs" />
     <Compile Include="Program.cs" />
@@ -190,6 +190,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
