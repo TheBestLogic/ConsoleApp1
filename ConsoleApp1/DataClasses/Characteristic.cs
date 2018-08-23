@@ -6,16 +6,22 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public class Characteristic : Other
+    public class Characteristic : BaseClass
     {
-        public string CharName { get; set; }
-        public string CharText { get; set; }
+        public string CharactericticName { get; set; }
+        public string CharactericticText { get; set; }
 
-        public Characteristic(int id, string charName, string charText)
+        public Characteristic()
+        {
+            CharactericticName = "CharactericticName";
+            CharactericticText = "CharactericticText";
+        }
+
+        /*public Characteristic(int id, string charName, string charText) :base(id)
         {
             Id = id;
             CharName = charName;
             CharText = charText;
-        }
+        }*/
     }
 }

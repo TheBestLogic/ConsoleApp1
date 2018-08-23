@@ -149,12 +149,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataClasses\SomeProduct.cs" />
+    <Compile Include="DataClasses\Media.cs" />
+    <Compile Include="DataClasses\Product.cs" />
     <Compile Include="DataClasses\Characteristic.cs" />
+    <Compile Include="DataClasses\ProductToCharacteristic.cs" />
     <Compile Include="DataClasses\Reiews.cs" />
     <Compile Include="DataClasses\Item.cs" />
-    <Compile Include="DataClasses\Other.cs" />
+    <Compile Include="DataClasses\BaseClass.cs" />
     <Compile Include="DbClass.cs" />
+    <Compile Include="Migrations\20180823155417_MigrateDB.cs" />
+    <Compile Include="Migrations\20180823155417_MigrateDB.designer.cs">
+      <DependentUpon>20180823155417_MigrateDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\DbClassModelSnapshot.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

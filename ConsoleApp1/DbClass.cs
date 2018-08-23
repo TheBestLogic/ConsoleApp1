@@ -10,7 +10,7 @@ namespace ConsoleApp1
 {
     class DbClass : DbContext
     {
-        public DbSet<SomeProduct> Products { get; set; }
+        public DbSet<Product> Products { get; set; }
         public DbSet<Characteristic> Characteristics { get; set; }
         //public DbSet<Characteristic> Characteristics { get; set; }
 
@@ -21,7 +21,7 @@ namespace ConsoleApp1
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<SomeProduct>();
+            modelBuilder.Entity<Product>();
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

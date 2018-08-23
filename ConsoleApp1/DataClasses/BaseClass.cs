@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public class Other
+    public class BaseClass
     {
         public int Id { get; set; }
 
-        protected Other()
+        protected BaseClass()
         {
             
         }
 
-        public Other(int inId)
+        /*public BaseClass(int inId)
         {
             Id = inId;
-        }
+        }*/
     }
 }

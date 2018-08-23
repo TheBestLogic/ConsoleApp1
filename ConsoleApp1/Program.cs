@@ -12,8 +12,8 @@ namespace ConsoleApp1
         {
             using (DbClass db = new DbClass())
             {
-                SomeProduct Prod1 = new SomeProduct(1, "Phone", "company",new Characteristic( 1, "name","descr"));
-                SomeProduct Prod2 = new SomeProduct(2, "NotPhone", "company", new List<Characteristic> { new Characteristic(2, "3234", "wfwef"), new Characteristic(3, "3234", "wfwef"), new Characteristic(4, "3234", "wfwef") });
+                Product Prod1 = new Product(1, "Phone", "company",new Characteristic( 1, "name","descr"));
+                Product Prod2 = new Product(2, "NotPhone", "company", new List<Characteristic> { new Characteristic(2, "3234", "wfwef"), new Characteristic(3, "3234", "wfwef"), new Characteristic(4, "3234", "wfwef") });
 
                 
 
