@@ -10,11 +10,13 @@ namespace ConsoleApp1
     {
         public string Name { get; set; }
         public string Company { get; set; }
+        public double Rating { get; set; }
 
         protected Item()
         {
             Name = "Name";
             Company = "Company";
+            Rating = 5;
         }
 
         /*public Item(int id, string name, string company) : base(id)

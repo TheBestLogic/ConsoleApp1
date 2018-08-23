@@ -9,9 +9,9 @@ namespace ConsoleApp1
     public class Product : Item
     {
         public Media MediaFiles;
-        public ICollection<Characteristic> Characteristics { get; set; } = new List<Characteristic>();
+        public ICollection<ProductToCharacteristic> ProductToCharacteristics { get; set; } = new List<ProductToCharacteristic>();
 
-        public Product() => Characteristics = new List<Characteristic>();
+        public Product() => ProductToCharacteristics = new List<ProductToCharacteristic>();
 
         /*public Product(int id, string name, string company, Characteristic characteristics) : base(id, name, company)
         {

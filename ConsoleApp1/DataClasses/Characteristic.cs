@@ -8,12 +8,12 @@ namespace ConsoleApp1
 {
     public class Characteristic : BaseClass
     {
-        public string CharactericticName { get; set; }
+        
         public string CharactericticText { get; set; }
 
         public Characteristic()
         {
-            CharactericticName = "CharactericticName";
+            
             CharactericticText = "CharactericticText";
         }
 
