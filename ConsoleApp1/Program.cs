@@ -13,15 +13,19 @@ namespace ConsoleApp1
         {
             using (DbClass db = new DbClass())
             {
-                Product Prod1 = new Product();
-                Product Prod2 = new Product();
-
-                
+                Product Prod = new Product();
+                Characteristic Ch = new Characteristic();
+                Reiews Rew = new Reiews();
+                Media Med = new Media();
+                ProductToCharacteristic PrToCh = new ProductToCharacteristic(Prod, Ch);
 
 
                 // добавляем их в бд
-                db.Products.Add(Prod1);
-                db.Products.Add(Prod2);
+                db.Products_.Add(Prod);
+                db.Characteristics_.Add(Ch);
+                db.Rewiews_.Add(Rew);
+                db.Media_.Add(Med);
+                db.ProductToCharacteristics_.Add(PrToCh);
                 db.SaveChanges();
                 Console.WriteLine("Объекты успешно сохранены");
 

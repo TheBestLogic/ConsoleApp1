@@ -56,7 +56,7 @@ namespace ConsoleApp1.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products_");
                 });
 
             modelBuilder.Entity("ConsoleApp1.ProductToCharacteristic", b =>
@@ -88,7 +88,7 @@ namespace ConsoleApp1.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("_Rewiews_");
+                    b.ToTable("Rewiews_");
                 });
 
             modelBuilder.Entity("ConsoleApp1.ProductToCharacteristic", b =>

@@ -15,6 +15,7 @@ namespace ConsoleApp1
 
         public Media()
         {
+            
            /* PhotoLinks  = new List<string>();
             VideoLinks  = new List<string>();*/
         }

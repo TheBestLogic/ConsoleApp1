@@ -11,11 +11,7 @@ namespace ConsoleApp1
         
         public string CharactericticText { get; set; }
 
-        public Characteristic()
-        {
-            
-            CharactericticText = "CharactericticText";
-        }
+        public Characteristic() => CharactericticText = "CharactericticText";
 
         /*public Characteristic(int id, string charName, string charText) :base(id)
         {

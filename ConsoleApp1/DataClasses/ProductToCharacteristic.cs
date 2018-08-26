@@ -16,5 +16,12 @@ namespace ConsoleApp1
         {
             CharactericticName = "CharactericticName";
         }
+
+        public ProductToCharacteristic(Product product, Characteristic characteristic)
+        {
+            ProductID = product.Id;
+            CharactericticID = characteristic.Id;
+            CharactericticName = "CharactericticName";
+        }
     }
 }

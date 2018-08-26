@@ -15,7 +15,7 @@ namespace ConsoleApp1
         public string Text { get; set; }
         public string FeedbackEmail { get; set; }
 
-        protected Reiews()
+        public Reiews()
         {
             UserName = "userName";
             Rating = 5;

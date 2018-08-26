@@ -8,7 +8,7 @@ namespace ConsoleApp1.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "_Rewiews_",
+                name: "Rewiews_",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
@@ -20,7 +20,7 @@ namespace ConsoleApp1.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK__Rewiews_", x => x.Id);
+                    table.PrimaryKey("PK_Rewiews_", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -49,7 +49,7 @@ namespace ConsoleApp1.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Products",
+                name: "Products_",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
@@ -86,7 +86,7 @@ namespace ConsoleApp1.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "_Rewiews_");
+                name: "Rewiews_");
 
             migrationBuilder.DropTable(
                 name: "Characteristics_");
@@ -98,7 +98,7 @@ namespace ConsoleApp1.Migrations
                 name: "ProductToCharacteristics_");
 
             migrationBuilder.DropTable(
-                name: "Products");
+                name: "Products_");
         }
     }
 }
